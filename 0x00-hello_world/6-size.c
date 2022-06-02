@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <char.h>
+#include <float.h>
 /**
  * main - entry point
  *
@@ -15,11 +17,11 @@ int main(void)
 
 	/* evaluating the size of varaibles*/
 
-	printf("Size of a char: %lu byte(s)\n",sizeof(c));
-	printf("Size of an int: %lu bytes(s)\n",sizeof(i));
-	printf("Size of a long int: %lu bytes(s)\n",sizeof(l));
-	printf("Size of a long long int: %lu bytes(s)\n",sizeof(ll));
-	printf("Size of a float: %lu bytes(s)\n",sizeof(f));
+	printf("Size of a char: %lu byte(s)\n", sizeof(c));
+	printf("Size of an int: %lu bytes(s)\n", sizeof(i));
+	printf("Size of a long int: %lu bytes(s)\n", sizeof(l));
+	printf("Size of a long long int: %lu bytes(s)\n", sizeof(ll));
+	printf("Size of a float: %lu bytes(s)\n", sizeof(f));
 
-	return 0;
+	return (0);
 }
