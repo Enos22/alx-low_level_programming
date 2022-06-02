@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include <char.h>
-#include <float.h>
 /**
  * main - entry point
  *
- * return: 0 if  success 
- * task 6 program
- * */
+ * return:if  success 0
+ * *
+ * task program.
+ */
 int main(void)
 {
 	int i;
@@ -14,8 +13,6 @@ int main(void)
 	long int l;
 	float f;
 	long long int ll;
-
-	/* evaluating the size of varaibles*/
 
 	printf("Size of a char: %lu byte(s)\n", sizeof(c));
 	printf("Size of an int: %lu bytes(s)\n", sizeof(i));
