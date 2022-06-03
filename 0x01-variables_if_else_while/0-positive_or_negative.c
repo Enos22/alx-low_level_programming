@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main - print positive, negative or zero */
+/**
+ * main - determines whether the random number is positive, negative or zero
+ *
+*/
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 int n;
