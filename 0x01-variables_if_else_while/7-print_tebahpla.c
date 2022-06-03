@@ -3,7 +3,7 @@
 #include <stdio.h>
 /*
  * main -prints alphabet in reverse
- * Return: 0 if okay
+ * Return: 0 if successful
  * betty style doc for function main goes there
  */
 int main(void)
