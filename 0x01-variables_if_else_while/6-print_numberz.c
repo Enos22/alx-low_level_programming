@@ -4,7 +4,7 @@
 /**
  * main - program that prints all single digit numbers of base 10 to 0
  * betty style doc for function main goes there
- * return: if success 0
+ * Return: 0 if success
  */
 int main(void)
 {
