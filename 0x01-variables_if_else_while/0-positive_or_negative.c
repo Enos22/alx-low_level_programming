@@ -4,6 +4,7 @@
 /**
  * main - determines whether the random number is positive, negative or zero
  *
+ *Return: 0 if success
 */
 
 int main(void)
