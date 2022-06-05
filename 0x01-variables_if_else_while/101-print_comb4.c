@@ -10,18 +10,18 @@ int a = '0';
 int b = '0';
 int c = '0';
 
-while (a <= '2')
+while (a <= '7')
 {
-while (b <= '3')
+while (b <= '8')
 {
-while (c <= '4')
+while (c <= '9')
 {
 if (a < b && b < c)
 {
 putchar(a);
 putchar(b);
 putchar(c);
-if (!(a == '2' && b == '3' && c == '4'))
+if (!(a == '7' && b == '8' && c == '9'))
 {
 putchar(',');
 putchar(' ');
