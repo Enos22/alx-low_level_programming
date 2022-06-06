@@ -1,13 +1,10 @@
 #include <stdio.h>
 
 /**
- *
  * main - prints all possible combinations of two two-digit numbers
  *
  * Return: 0 on sucess
- *
  */
-
 int main(void)
 {
 	int a;
@@ -28,13 +25,9 @@ int main(void)
 				while (d < 58)
 				{
 					putchar(a);
-
 					putchar(b);
-
 					putchar(32);
-
 					putchar(c);
-
 					putchar(d);
 
 					if (a < 57 || b < 56 || c < 57 || d < 57)
@@ -51,7 +44,6 @@ int main(void)
 		}
 		a++;
 	}
-
-	putchar(10);
+	putchar(0);
 	return (0);
 }
