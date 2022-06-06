@@ -15,17 +15,17 @@ int main(void)
 	int c;
 	int d;
 
-	a = 35;
-	while (a < 50)
+	a = 48;
+	while (a < 58)
 	{
-		b = 45;
-		while (b < 50)
+		b = 48;
+		while (b < 58)
 		{
 			d = b + 1;
 			c = a;
-			while (c < 50)
+			while (c < 58)
 			{
-				while (d < 50)
+				while (d < 58)
 				{
 					putchar(a);
 
