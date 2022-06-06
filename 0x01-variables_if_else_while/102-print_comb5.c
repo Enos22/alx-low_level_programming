@@ -44,6 +44,6 @@ int main(void)
 		}
 		a++;
 	}
-	putchar(0);
+	putchar(10);
 	return (0);
 }
