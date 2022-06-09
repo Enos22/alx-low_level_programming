@@ -2,7 +2,9 @@
 
 /**
  * _isupper -check the uppercase character
+ *
  * @c:checks character c
+ *
  * Return: 1 if uppercase otherwise 0
  */
 
