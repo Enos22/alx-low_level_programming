@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - prints all numbers except 2 and 4
- * @c: intager value
+ * @c: character
  * return: 0 on success
  */
 void print_most_numbers(void)
@@ -15,5 +15,6 @@ void print_most_numbers(void)
 
 		_putchar('c');
 	}
+	return (0);
 	_putchar('\n');
 }
