@@ -2,17 +2,17 @@
 
 /**
  * print_most_numbers - prints the numbers, from 0 to 9
- * @i: intager value
+ * @c: intager value
  */
 void print_most_numbers(void)
 {
-	int i;
+	int c;
 
-	for (i = 0; i < 10; i++)
+	for (c = 0; c < 10; i++)
 	{
-		if (i != 2 && i != 4)
+		if (c != 2 && c != 4)
 
-		_putchar(x + '0');
+		_putchar(c + '0');
 	}
 	_putchar('\n');
 }
