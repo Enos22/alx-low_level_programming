@@ -1,37 +1,28 @@
 #include "main.h"
 /**
  * cap_string - capitalizes all words of a string
- * @a: value of the first letter
- * Return: upper case value
+ * @b: value of string
+ * Return: the value of b
  *
  */
-char *cap_string(char *a)
+char *cap_string(char *b)
 {
-	int x, y;
-	int index;
-	char nots[] = ",.;.!?(){}\nt\"";
+	int a = 0, i;
+	int cspc = 13;
+	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
 
-	for (x = 0, index = 0; a[x] != '\0'; x++)
+	while (b[a])
 	{
-		if (a[0] > 96 && a[0] < 123)
-			index = 1;
-		for (y = 0; nots[y] != '\0'; y++)
+		i = 0;
+
+		while (i < cspc)
 		{
-			if (nots[y] == a[x])
-				trigger = 1;
+			if ((a == 0 || b[a - 1] == spc[i]) && (b[a] >= 97 && b[a] <= 122))
+				b[a] -= 32;
+
+			i++;
 		}
-		if (index)
-		{
-			if (a[x] > 96 && a[x] < 123)
-			{
-				a[x] -= 32;
-				index = 0;
-			}
-			else if (a[x] > 64 && a[x] < 91)
-				index = 0;
-			else if (a[x] > 47 && a(x) < 58)
-				index = 0;
-		}
+		a++;
 	}
-	return (s);
+	return (b);
 }
