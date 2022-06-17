@@ -41,7 +41,7 @@ int main(void)
 	}
 	else
 	{
-		print("%s + %s = %s\n", n, m, res);
+		printf("%s + %s = %s\n", n, m, res);
 	}
 	return (0);
 }
