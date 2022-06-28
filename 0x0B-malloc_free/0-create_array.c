@@ -5,6 +5,7 @@
  * create_array - createtes array of characters
  * @size: array size
  * @c: inializes array
+ * Return: 0 if size is NULL or m
  */
 char *create_array(unsigned int size, char c)
 {
