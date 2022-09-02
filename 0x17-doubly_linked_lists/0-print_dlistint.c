@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 
-/** 
+/**
  * print_dlistint - prints elements all elements of the list
  * @h: pointer to the list
  *
